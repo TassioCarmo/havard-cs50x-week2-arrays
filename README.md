@@ -22,7 +22,7 @@ make is actually just a program that calls clang, a compiler named for the “C 
 
 ##Debugging
 
-**Bugs** are mistakes in programs that cause them to behave differently than intended. 
-**debugging** is the process of finding and fixing those bugs.
+** Bugs ** are mistakes in programs that cause them to behave differently than intended. 
+** debugging ** is the process of finding and fixing those bugs.
 
 
