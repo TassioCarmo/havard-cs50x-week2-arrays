@@ -2,7 +2,7 @@
 
 ## What did i learn?
 
-## Compiling
+### Compiling
 
 ```
 int main(void)
