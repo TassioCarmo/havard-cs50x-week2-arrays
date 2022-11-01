@@ -48,8 +48,13 @@ In C, we have different types of variables we can use for storing data. Each var
     string, ? bytes
         A string takes up a variable amount of space, since it could be short or long.
 
-how bytes are allowcated in the RAm/memory
+how bytes and data are allowcated in the RAm/memory
 
+each square is a byte
 <img src = "https://cs50.harvard.edu/x/2022/notes/2/ram.png">
+<img src = "https://cs50.harvard.edu/x/2022/notes/2/scores.png">
+<img src = "https://cs50.harvard.edu/x/2022/notes/2/binary.png>
+
+Arrays
 
 
