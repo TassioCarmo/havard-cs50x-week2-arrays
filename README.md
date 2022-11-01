@@ -28,7 +28,7 @@ make is actually just a program that calls clang, a compiler named for the “C 
 
 Three types of debugging 
 - use print to find where the error is
-- running a debugger
+- running a debugger (which allows you to go step by step within the program
 - Rubber duck (talk to yourself or someone about the problem)
 
 
