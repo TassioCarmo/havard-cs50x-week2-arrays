@@ -55,6 +55,7 @@ each square is a byte
 <img src = "https://cs50.harvard.edu/x/2022/notes/2/scores.png">
 <img src = "https://cs50.harvard.edu/x/2022/notes/2/binary.png">
 
-Arrays
+###Arrays
 
+Type of data that allow us to store multiple values of the same type **back to back**
 
