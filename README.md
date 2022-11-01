@@ -34,18 +34,14 @@ Three types of debugging
 ## Memory
 In C, we have different types of variables we can use for storing data. Each variable is stored with a fixed number of bytes, and for most computer systems each type has the following size:
 
-    bool, 1 byte
+ - bool, 1 byte
         A Boolean value can technically be represented with just a single bit, but for simplicity our computers use an entire byte.
-    char, 1 byte
-        Recall that with ASCII, we have a maximum of 256 different possible characters, since there are 8 bits in a byte.
-    double, 8 bytes
-        Twice as many bytes as a float.
-    float, 4 bytes
-    int, 4 bytes
-        Recall that a 32-bit integer can represent about 4 billion different values.
-    long, 8 bytes
-        Twice as many bytes as an int.
-    string, ? bytes
+ - char, 1 byte
+ - double, 8 bytes
+ - float, 4 bytes
+ - int, 4 bytes/32-bit
+ -  long, 8 bytes
+ - string, ? bytes
         A string takes up a variable amount of space, since it could be short or long.
 
 how bytes and data are allowcated in the RAm/memory
