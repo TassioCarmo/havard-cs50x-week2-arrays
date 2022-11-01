@@ -73,3 +73,5 @@ int scores[3]
     scores[i] = get_int("Score: ");
   }
 ```
+
+the purpose of an array is not to save space. It's to eliminate having multiple variable names because that gets very messy quickly.
