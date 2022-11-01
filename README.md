@@ -20,7 +20,7 @@ make is actually just a program that calls clang, a compiler named for the “C 
 - assembling - transform assembly to machine code
 - linking - Libraries/imports are combined with the compiled binary of our program
 
-##Debugging
+## Debugging
 
 **Bugs** are mistakes in programs that cause them to behave differently than intended. 
 
