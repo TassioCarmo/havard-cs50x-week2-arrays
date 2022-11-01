@@ -61,7 +61,15 @@ Initializing an array
 
 int scores[3]
 
-- first position score[0]
-- second postion score[1]
-- n position score[n]
+- first position score[0] = number
+- second postion score[1] = number
+- n position score[n] = number
 
+```
+  int scores[n];
+
+  for (int i = 0; i < n; i++)
+  {
+    scores[i] = get_int("Score: ");
+  }
+```
