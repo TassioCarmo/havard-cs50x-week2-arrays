@@ -1,6 +1,6 @@
 <h1>Introduction to arrays </h1>
 
-##What did i learn?
+## What did i learn?
 
 #Compiling
 
