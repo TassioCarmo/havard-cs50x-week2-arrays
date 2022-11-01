@@ -52,7 +52,9 @@ how bytes and data are allowcated in the RAm/memory
 
 Each square represents a byte
 <img src = "https://cs50.harvard.edu/x/2022/notes/2/ram.png">
+
 <img src = "https://cs50.harvard.edu/x/2022/notes/2/scores.png">
+
 <img src = "https://cs50.harvard.edu/x/2022/notes/2/binary.png">
 
 ### Arrays
