@@ -61,3 +61,11 @@ Each square represents a byte
 
 Type of data that allow us to store multiple values of the same type **back to back**
 
+Initializing an array
+
+int scores[3]
+
+- first position score[0]
+- second postion score[1]
+- n position score[n]
+
