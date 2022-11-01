@@ -31,7 +31,7 @@ Three types of debugging
 - running a debugger (which allows you to go step by step within the program
 - Rubber duck (talk to yourself or someone about the problem)
 
-##Memory
+## Memory
 In C, we have different types of variables we can use for storing data. Each variable is stored with a fixed number of bytes, and for most computer systems each type has the following size:
 
     bool, 1 byte
@@ -50,12 +50,12 @@ In C, we have different types of variables we can use for storing data. Each var
 
 how bytes and data are allowcated in the RAm/memory
 
-each square is a byte
+Each square represents a byte
 <img src = "https://cs50.harvard.edu/x/2022/notes/2/ram.png">
 <img src = "https://cs50.harvard.edu/x/2022/notes/2/scores.png">
 <img src = "https://cs50.harvard.edu/x/2022/notes/2/binary.png">
 
-###Arrays
+### Arrays
 
 Type of data that allow us to store multiple values of the same type **back to back**
 
