@@ -86,3 +86,5 @@ Supbotmization
 <code>for (int i = 0, n = strlen(s); i < n; i++)</code>
  You are calling the function multiple times uncessary, Don't ask multiple times the question you can remember to asnwer to
 <code> for (int i = 0, n = strlen(s); i < n; i++)</code>
+    
+ strings are just arrays, and we know that characters, which are in those arrays, are just binary representations of numbers
