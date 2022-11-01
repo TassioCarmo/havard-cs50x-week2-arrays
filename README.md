@@ -81,3 +81,8 @@ In C, strings end with a special character, '\0', or a byte with all eight bits 
 <img src = "https://cs50.harvard.edu/x/2022/notes/2/string.png">
 
 So the computer isn't using 3 bytes for HI! but 4, size of the string plus null that demarcates the end of the string
+
+Supbotmization
+<code>for (int i = 0, n = strlen(s); i < n; i++)</code>
+ You are calling the function multiple times uncessary, Don't ask multiple times the question you can remember to asnwer to
+<code> for (int i = 0, n = strlen(s); i < n; i++)</code>
