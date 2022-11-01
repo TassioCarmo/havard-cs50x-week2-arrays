@@ -80,4 +80,4 @@ In C, strings end with a special character, '\0', or a byte with all eight bits 
 
 <img src = "https://cs50.harvard.edu/x/2022/notes/2/string.png">
 
-So the computer isn't using 3 bytes for HI! but 4, size of the string plus null
+So the computer isn't using 3 bytes for HI! but 4, size of the string plus null that demarcates the end of the string
