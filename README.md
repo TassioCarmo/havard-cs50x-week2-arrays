@@ -79,3 +79,5 @@ the purpose of an array is not to save space. It's to eliminate having multiple 
 In C, strings end with a special character, '\0', or a byte with all eight bits set to 0, so our programs have a way of knowing where the string ends. This character is called the null character, or NUL. 
 
 <img src = "https://cs50.harvard.edu/x/2022/notes/2/string.png">
+
+So the computer isn't using 3 bytes for HI! but 4
