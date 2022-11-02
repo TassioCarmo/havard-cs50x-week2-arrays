@@ -88,3 +88,5 @@ Supbotmization
 <code> for (int i = 0, n = strlen(s); i < n; i++)</code>
     
  strings are just arrays, and we know that characters, which are in those arrays, are just binary representations of numbers
+    
+ inside of Boolean expressions, if you put a value like a function call like this, that returns 0, that's going to be equivalent to false.
