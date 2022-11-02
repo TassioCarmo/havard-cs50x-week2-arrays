@@ -96,4 +96,4 @@ Supbotmization
  Programs of our own can also take in command-line arguments, or inputs given to our program in the command we use to run it.
  Main is the way you can specify that your program does, in fact, take command line arguments, that is words after the command in your terminal window
     
- Programming defensivaly in other words finding bugs that the user might do
+ Programming defensivaly in other words finding bugs that the user might do.
