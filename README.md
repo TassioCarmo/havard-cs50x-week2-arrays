@@ -101,3 +101,5 @@ Supbotmization
     Varieable Scope 
     Global everything has acess
     Local only things inside de {}
+    
+  Arrays are  passed by reference. in other words The callee actually does receive the array so he will be changed regardless of the scope
