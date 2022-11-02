@@ -97,3 +97,7 @@ Supbotmization
  Main is the way you can specify that your program does, in fact, take command line arguments, that is words after the command in your terminal window
     
  Programming defensivaly in other words finding bugs that the user might do.
+    
+    Varieable Scope 
+    Global everything has acess
+    Local only things inside de {}
