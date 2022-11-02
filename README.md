@@ -91,7 +91,7 @@ Supbotmization
     
  inside of Boolean expressions, if you put a value like a function call like this, that returns 0, that's going to be equivalent to false.
     
- ##Command-line arguments
+ ## Command-line arguments
 
  Programs of our own can also take in command-line arguments, or inputs given to our program in the command we use to run it.
  Main is the way you can specify that your program does, in fact, take command line arguments, that is words after the command in your terminal window
