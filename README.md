@@ -32,6 +32,12 @@ Three types of debugging
 - Debugger: running a debugger (which allows you to go step by step within the program
 - Rubber duck: (talk to yourself or someone about the problem)
 
+## Variable Scope
+
+Scopeis a characteristic of a variable that defines from which functions that variable may be accessed.
+- Local variablescan only be accessed within the functions in which they are created.
+- Global variablescan be accessed by any function in the program.
+
 ## Memory
 In C, we have different types of variables we can use for storing data. Each variable is stored with a fixed number of bytes, and for most computer systems each type has the following size:
 
