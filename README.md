@@ -16,7 +16,7 @@ turns our source code into machine code before we could run the compiled program
 
 **Compiling** source code into machine code is actually made up of four smaller steps:
 
-- mpreprocessing - get imports
+- preprocessing - get imports
 - compiling -  transform to assambly
 - assembling - transform assembly to machine code
 - linking - Libraries/imports are combined with the compiled binary of our program
