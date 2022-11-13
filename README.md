@@ -60,7 +60,7 @@ Type of data that allow us to store multiple values of the same type **back to b
 
 Initializing an array
 
-int scores[3]
+<code>int scores[3]</code>
 
 - first position score[0] = number
 - second postion score[1] = number
@@ -75,9 +75,9 @@ int scores[3]
   }
 ```
 
-the purpose of an array is not to save space. It's to eliminate having multiple variable names because that gets very messy quickly.
+the purpose of an array is not to save space.but to eliminate having multiple variable names, Otherwise it gets very messy quickly.
 
-In C, strings end with a special character, '\0', or a byte with all eight bits set to 0, so our programs have a way of knowing where the string ends. This character is called the null character, or NUL. 
+### In C, strings end with a special character, '\0' called nul, or a byte with all eight bits set to 0, so our programs have a way of knowing where the string ends. This character is called the null character, or NUL. 
 
 <img src = "https://cs50.harvard.edu/x/2022/notes/2/string.png">
 
