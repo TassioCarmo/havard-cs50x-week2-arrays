@@ -23,14 +23,14 @@ turns our source code into machine code before we could run the compiled program
 
 ## Debugging
 
-**Bugs** are mistakes in programs that cause them to behave differently than intended. 
+**Bugs**: mistakes in programs that cause them to behave differently than intended. 
 
-**debugging** is the process of finding and fixing those bugs.
+**debugging**: the process of finding and fixing those bugs.
 
 Three types of debugging 
-- use print to find where the error is
-- running a debugger (which allows you to go step by step within the program
-- Rubber duck (talk to yourself or someone about the problem)
+- Print: use print to find where the error is
+- Debugger: running a debugger (which allows you to go step by step within the program
+- Rubber duck: (talk to yourself or someone about the problem)
 
 ## Memory
 In C, we have different types of variables we can use for storing data. Each variable is stored with a fixed number of bytes, and for most computer systems each type has the following size:
