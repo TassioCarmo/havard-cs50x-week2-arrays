@@ -10,8 +10,9 @@ int main(void)
     printf("hello, world\n");
 }
 ```
-make hello first, turning our source code into machine code before we could run the compiled program with ./hello.
-make is actually just a program that calls clang, a compiler named for the “C language”.
+make which is actually just a program that calls clang, a compiler named for the “C language”.
+
+turns our source code into machine code before we could run the compiled program with <code>./</code>
 
 **Compiling** source code into machine code is actually made up of four smaller steps:
 
