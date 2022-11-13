@@ -83,24 +83,60 @@ the purpose of an array is not to save space.but to eliminate having multiple va
 
 So the computer isn't using 3 bytes for HI! but 4, size of the string plus null that demarcates the end of the string
 
-Supbotmization
+### Supbotmization
+- Do not call a function multiple times uncessary
+- Don't ask multiple times the question you can remember to asnwer to
+
 <code>for (int i = 0, n = strlen(s); i < n; i++)</code>
- You are calling the function multiple times uncessary, Don't ask multiple times the question you can remember to asnwer to
-<code> for (int i = 0, n = strlen(s); i < n; i++)</code>
-    
- strings are just arrays, and we know that characters, which are in those arrays, are just binary representations of numbers
-    
- inside of Boolean expressions, if you put a value like a function call like this, that returns 0, that's going to be equivalent to false.
     
  ## Command-line arguments
 
- Programs of our own can also take in command-line arguments, or inputs given to our program in the command we use to run it.
- Main is the way you can specify that your program does, in fact, take command line arguments, that is words after the command in your terminal window
+ Programs can also take in command-line arguments, or inputs given to our program in the command-prompt we use to run it.
     
- Programming defensivaly in other words finding bugs that the user might do.
+```  
+#include <stdio.h>
+
+int main(int argc, string argv[])
+{
+  ...
+}
+```
+- argc and argv are two variables that our main function will now get automatically when our program is run from the command line. 
+- argc is the argument count, or number of arguments (words) typed in. 
+- argv[], argument vector (or argument list), is an array of the arguments (words) themselves, and there’s no size specified since we don’t know how big that will be ahead of time.
+- The first argument, argv[0], is the name of the program 
+    
+Making sure that we have the right number of arguments before we try to print something that isn’t there:
+```
+#include <cs50.h>
+#include <stdio.h>
+  
+int main(int argc, string argv[])
+{
+    if (argc == 2)
+    {
+        printf("hello, %s\n", argv[1]);
+    }
+    else
+    {
+        printf("hello, world\n");
+    }
+}
+```
+## Exit status
+
+Main return 0 by default to indicate nothing went wrong, but we can write a program to return a different value like 1 actually any non-zero exit status indicates some error to the system that runs our program 
+
+ 
+### Others
+- strings are just arrays, and we know that characters, which are in those arrays, are just binary representations of numbers
+    
+- inside of Boolean expressions, if you put a value like a function call like this, that returns 0, that's going to be equivalent to false.
+       
+- Programming defensivaly in other words finding bugs that the user might do.
     
     Varieable Scope 
     Global everything has acess
     Local only things inside de {}
     
-  Arrays are  passed by reference. in other words The callee actually does receive the array so he will be changed regardless of the scope
+ - Arrays are  passed by reference. in other words The callee actually does receive the array so he will be changed regardless of the scope
